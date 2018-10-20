@@ -19,4 +19,8 @@ Con los siguientes plugins:
 
 Aqui el link de mi repositorio de github [link]()
 
+## Informacion extra
 
+En este proyecto tratare de documentar ciertas cosas que me parezcan interesantes con documentos ## Informacion extra
+
+En este proyecto tratare de documentar ciertas cosas que me parezcan interesantes con documentos **markdown** que seran puestos (creo) en una carpeta llamada documentacion.
