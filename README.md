@@ -17,10 +17,6 @@ Con los siguientes plugins:
 
 ## Este codigo sera subido a mi github
 
-Aqui el link de mi repositorio de github [link]()
-
-## Informacion extra
-
-En este proyecto tratare de documentar ciertas cosas que me parezcan interesantes con documentos ## Informacion extra
+Aqui el link de mi repositorio de github [link](https://github.com/pystudent1913/twetclone-django1.10)
 
 En este proyecto tratare de documentar ciertas cosas que me parezcan interesantes con documentos **markdown** que seran puestos (creo) en una carpeta llamada documentacion.
