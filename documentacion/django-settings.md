@@ -122,7 +122,7 @@ Ahora si volvemos a correr el servidor nos funcionaria:
 ![correct-run](../imgs/correct-run.png "correct-run")
 
 
-
+Oh y lo olvidaba, ya pueden borrar el archivo **settings.py** puesto ya lo hemos usado no habria necesidad de seguir usandolo.  
 
 
 
