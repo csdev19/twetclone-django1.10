@@ -2,7 +2,7 @@
 
 - Bootstrap 3
 - Django v1.10.3
-- Python 2.x
+- Python 3.x
 
 ## Que sera este proyecto ? 
 
