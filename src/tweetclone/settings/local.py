@@ -29,8 +29,15 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+THRID_PARTY_APPS = [
+    
+]
 
-INSTALLED_APPS = [
+CUSTOM_APPS = [
+    
+]
+
+LOCAL_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -38,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+INSTALLED_APPS = THRID_PARTY_APPS + LOCAL_APPS + CUSTOM_APPS
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -116,5 +125,10 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
-
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static-storage")
+]
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static-serve")
