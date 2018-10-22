@@ -125,9 +125,43 @@ Ahora si volvemos a correr el servidor nos funcionaria:
 Oh y lo olvidaba, ya pueden borrar el archivo **settings.py** puesto ya lo hemos usado no habria necesidad de seguir usandolo.  
 
 
+## Una cosa extra 
 
+Que personalmente me gusta hacer a mi (visto de otros tutoriales), sobre nuestra variable **INSTALLED_APPS** la cual actualmente deberia estar asi:
 
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+```
 
+A mi me gusta dividirla en varias listas para que sea mas declarativo que contiene cada una, de la siguiente manera:
+
+```python
+THRID_PARTY_APPS = [
+    
+]
+
+CUSTOM_APPS = [
+    
+]
+
+LOCAL_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+
+INSTALLED_APPS = THRID_PARTY_APPS + LOCAL_APPS + CUSTOM_APPS
+```
 
 
 
