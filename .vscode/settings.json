@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "tweetenv/bin/python",
+    "python.linting.pylintEnabled": false
+}

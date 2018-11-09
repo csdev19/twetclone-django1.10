@@ -34,7 +34,7 @@ THRID_PARTY_APPS = [
 ]
 
 CUSTOM_APPS = [
-    
+    'tweets',    
 ]
 
 LOCAL_APPS = [

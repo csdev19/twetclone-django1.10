@@ -1,0 +1,560 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"STA",
+				"STATIC_URL"
+			],
+			[
+				"co",
+				"conf"
+			],
+			[
+				"STATI",
+				"STATIC_ROOT"
+			],
+			[
+				"Loc",
+				"LOCAL_APPS"
+			],
+			[
+				"TH",
+				"THRID_PARTY_APPS"
+			],
+			[
+				"__",
+				"__init__.py"
+			],
+			[
+				"BASE",
+				"BASE_DIR"
+			],
+			[
+				"sett",
+				"settings.py"
+			],
+			[
+				"settings",
+				"settings.py"
+			],
+			[
+				"django",
+				"django-admin"
+			],
+			[
+				"1",
+				"1.10.3"
+			],
+			[
+				"pro",
+				"proyecto"
+			],
+			[
+				"no",
+				"Nodo"
+			],
+			[
+				"t",
+				"Tnodo"
+			],
+			[
+				"eli",
+				"eliminar_ultimo"
+			],
+			[
+				"mi",
+				"maximo"
+			],
+			[
+				"min",
+				"minimo_numero"
+			],
+			[
+				"dat",
+				"dato_nodo"
+			],
+			[
+				"nu",
+				"maximo_numero"
+			],
+			[
+				"da",
+				"dato_nodo"
+			],
+			[
+				"s",
+				"siguiente"
+			],
+			[
+				"ingre",
+				"ingresar_inicio"
+			],
+			[
+				"ma",
+				"maximo"
+			],
+			[
+				"dato",
+				"dato_final"
+			],
+			[
+				"cae",
+				"cabeza"
+			],
+			[
+				"ca",
+				"cabeza"
+			],
+			[
+				"nodo",
+				"nodo_auxiliar"
+			],
+			[
+				"Us",
+				"UserRegistrationView〔module〕"
+			],
+			[
+				"in",
+				"inputs\tinput - submit"
+			],
+			[
+				"fo",
+				"form\t<form>"
+			],
+			[
+				"ext",
+				"extends\textends"
+			],
+			[
+				"templ",
+				"template"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"col",
+				"columnspan"
+			],
+			[
+				"obj",
+				"obj_creator"
+			],
+			[
+				"creato",
+				"creator_obj"
+			],
+			[
+				"cre",
+				"CSRF_FAILURE_VIEW"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"crea",
+				"creator"
+			],
+			[
+				"list",
+				"list_auxiliar"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"rand",
+				"random2\tstatement"
+			],
+			[
+				"ra",
+				"random1\tstatement"
+			],
+			[
+				"choi",
+				"choices"
+			],
+			[
+				"stat",
+				"statements"
+			],
+			[
+				"li",
+				"list_auxiliar\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"uni",
+				"Colorsublime: Uninstall Theme"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"instla",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/pystudent/Testing/django-proyect-1.10/src/tweetclone/settings/local.py",
+		"/home/pystudent/Testing/django-proyect-1.10/src/tweetclone/urls.py",
+		"/home/pystudent/Testing/django-proyect-1.10/documentacion/django-static-files.md",
+		"/home/pystudent/Testing/django-proyect-1.10/src/static-storage/static/css/example.css",
+		"/home/pystudent/Testing/django-proyect-1.10/documentacion/django-settings.md",
+		"/home/pystudent/Testing/django-proyect-1.10/src/tweetclone/settings/base.py",
+		"/home/pystudent/Testing/django-proyect-1.10/.gitignore",
+		"/home/pystudent/Testing/django-proyect-1.10/src/tweetclone/settings/production.py",
+		"/home/pystudent/Testing/django-proyect-1.10/src/tweetclone/settings/__init__.py",
+		"/home/pystudent/Testing/django-proyect-1.10/src/tweetclone/settings/settings.py",
+		"/home/pystudent/Testing/django-proyect-1.10/src/tweetclone/settings.py",
+		"/home/pystudent/Testing/django-proyect-1.10/tweetenv/lib/python3.6/site-packages/setuptools/_vendor/packaging/__init__.py",
+		"/home/pystudent/Testing/django-proyect-1.10/documentacion/setup.md",
+		"/home/pystudent/Testing/django-proyect-1.10/README.md",
+		"/home/pystudent/Studying/untitled.cpp",
+		"/home/pystudent/Testing/djangoblog-blueprint/src/accounts/apps.py",
+		"/home/pystudent/Testing/djangoblog-blueprint/src/blueprblog/urls.py",
+		"/home/pystudent/Testing/djangoblog-blueprint/src/accounts/urls.py",
+		"/home/pystudent/Testing/docker-ml/requirements.txt",
+		"/home/pystudent/Testing/proyecto/test2.py",
+		"/home/pystudent/Testing/proyecto/test3.py",
+		"/home/pystudent/Testing/proyecto/notes.py",
+		"/home/pystudent/Testing/proyecto/main.py",
+		"/home/pystudent/Testing/generate_pass/creator.py",
+		"/home/pystudent/Testing/generate_pass/module.py",
+		"/home/pystudent/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/pystudent/.config/sublime-text-3/Packages/Terminality/Terminality.sublime-settings",
+		"/home/pystudent/.config/sublime-text-3/Packages/Terminality/Default (Linux).sublime-keymap",
+		"/home/pystudent/.config/sublime-text-3/Packages/Terminal/Terminal.sublime-settings",
+		"/home/pystudent/.config/sublime-text-3/Packages/User/Terminal.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"new-admin",
+			"admin-static",
+			"tree-static",
+			"dir",
+			"base-dir",
+			"error-run",
+			"base-dir",
+			"project",
+			"runserver",
+			"tree"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tweetclone.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"exa",
+				"src/static-storage/static/css/example.css"
+			],
+			[
+				"urls",
+				"src/tweetclone/urls.py"
+			],
+			[
+				"md",
+				"documentacion/django-settings.md"
+			],
+			[
+				"",
+				"documentacion/django-static-files.md"
+			],
+			[
+				"djang",
+				"documentacion/django-settings.md"
+			],
+			[
+				"local",
+				"src/tweetclone/settings/local.py"
+			],
+			[
+				"base",
+				"src/tweetclone/settings/base.py"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"djan",
+				"documentacion/django-settings.md"
+			],
+			[
+				"init",
+				"src/tweetclone/settings/__init__.py"
+			],
+			[
+				"setting",
+				"src/tweetclone/settings.py"
+			],
+			[
+				"prod",
+				"src/tweetclone/settings/production.py"
+			],
+			[
+				"base.",
+				"src/tweetclone/settings/base.py"
+			],
+			[
+				"settings.",
+				"src/tweetclone/settings/settings.py"
+			],
+			[
+				"dajn",
+				"documentacion/django-settings.md"
+			],
+			[
+				"setting__init__",
+				"tweetenv/lib/python3.6/site-packages/setuptools/_vendor/packaging/__init__.py"
+			],
+			[
+				".md",
+				"documentacion/setup.md"
+			],
+			[
+				"set",
+				"src/tweetclone/settings.py"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"se",
+				"documentacion/setup.md"
+			],
+			[
+				"lo",
+				"accounts/templates/accounts/login.html"
+			],
+			[
+				"ur",
+				"blueprblog/urls.py"
+			],
+			[
+				"vi",
+				"accounts/views.py"
+			],
+			[
+				"url",
+				"accounts/urls.py"
+			],
+			[
+				"html",
+				"blueprblog/templates/base.html"
+			],
+			[
+				"app",
+				"accounts/apps.py"
+			],
+			[
+				"s",
+				"blueprblog/settings.py"
+			],
+			[
+				"sett",
+				"blueprblog/settings.py"
+			],
+			[
+				"view",
+				"accounts/views.py"
+			],
+			[
+				"accou",
+				"accounts/views.py"
+			],
+			[
+				"acc",
+				"accounts/apps.py"
+			],
+			[
+				"inpu",
+				"input_complex.py"
+			],
+			[
+				"tes",
+				"test3.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
