@@ -1104,4 +1104,46 @@ Lo que hace es que los archivos estaticos que cargamos son guardados en el <stro
 </pre></div>
 
 <p>Aunque tambien podemos crear una carpeta llamada <strong>bootstrap</strong> y poner todos los archivos ahi dentro, en este caso me parece mas ordenado asi que eso hare.
-Y volveremos a ejecutar <strong>collecstatic</strong>.</p></article></body></html>
+Y volveremos a ejecutar <strong>collecstatic</strong>.</p>
+<p>Ahora para trabajar con estos archivos estaticos en django, tenemos que agregar una linea de codigo a nuestro <strong>html</strong>, que es la siguiente:</p>
+<div class="codehilite"><pre>{% load static %}
+....
+</pre></div>
+
+<p>Antiguamente se usaba el tag <strong>{% load staticfiles %}</strong> pero ahora podemos poner simplemente static.</p>
+<p>Ahora para usar los archivos estaticos usaremos lo siguiente:</p>
+<div class="codehilite"><pre><span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;{% static &#39;bootstrap/css/bootstrap.min.css&#39; %}&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;{% static &#39;bootstrap/js/bootstrap.min.js&#39; %}&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</pre></div>
+
+<p>Y asi quedaria</p>
+<div class="codehilite"><pre><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;utf-8&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">http-equiv</span><span class="o">=</span><span class="s">&quot;X-UA-Compatible&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;IE=edge&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Bootstrap 101 Template<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;{% static &#39;bootstrap/css/bootstrap.min.css&#39; %}&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello, world!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- jQuery (necessary for Bootstrap&#39;s JavaScript plugins) --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;{% static &#39;bootstrap/js/bootstrap.min.js&#39; %}&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+
+<p>Ahora si es que vemos en el navegador habra lo siguiente:</p>
+<p><img alt="inspect" src="/home/cris19/Testing/twetclone-django1.10/imgs/inspect.png" /></p>
+<p>Y para hacer enfasis hablaremos de la siguiente linea:</p>
+<div class="codehilite"><pre><span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;/static/bootstrap/css/bootstrap.min.css&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span><span class="p">&gt;</span>
+</pre></div>
+
+<p>Hablamos de la parte que dice <strong>/static/</strong> de donde viene este nombre? pues de esta parte de nuestro archivo de configuracion:</p>
+<div class="codehilite"><pre><span class="n">STATIC_URL</span> <span class="o">=</span> <span class="s">&#39;/static/&#39;</span>
+</pre></div>
+
+<p>Por ejemplo podemos cambiar el <strong>&lsquo;/static/&rsquo;</strong> y poner otro nombre como <strong>&lsquo;/no-soy-static/&rsquo;</strong> y ver que pasa.</p></article></body></html>

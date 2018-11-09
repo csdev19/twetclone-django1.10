@@ -79,34 +79,50 @@ Antiguamente se usaba el tag **{% load staticfiles %}** pero ahora podemos poner
 Ahora para usar los archivos estaticos usaremos lo siguiente:
 
 ```html
-
+<link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
 ```
 
 Y asi quedaria
 
 ```html
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
-    <!-- Bootstrap -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet">
-     --><!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
   </head>
   <body>
     <h1>Hello, world!</h1>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
   </body>
 </html>
+
+</html>
 ```
+
+Ahora si es que vemos en el navegador habra lo siguiente:
+
+![inspect](../imgs/inspect.png)
+
+Y para hacer enfasis hablaremos de la siguiente linea:
+
+```html 
+<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+```
+
+Hablamos de la parte que dice **/static/** de donde viene este nombre? pues de esta parte de nuestro archivo de configuracion:
+
+```python
+STATIC_URL = '/static/'
+```
+
+Por ejemplo podemos cambiar el **'/static/'** y poner otro nombre como **'/no-soy-static/'** y ver que pasa.
 
 
 
