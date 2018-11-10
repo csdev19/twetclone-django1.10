@@ -1,0 +1,14 @@
+{% extends "home.html" %}
+
+{% block title %}
+    List View
+{% endblock title %}
+
+{% block content %}
+    El contenido de List View
+
+    {% for item in  object_list %}
+        <h1>{{ item.user }} </h1>
+        <p>{{ item.content }} </p>
+    {% endfor %}
+{% endblock content %}
